@@ -1,3 +1,8 @@
+# 1. Building a Simple Banking System
+# Create a BankAccount class with properties like account_number, balance, and owner_name.
+# Add methods for deposit(amount), withdraw(amount), and display_balance().
+# Ensure that withdrawals cannot exceed the current balance, and handle cases for insufficient funds.
+
 import hashlib
 
 class BankAccount:

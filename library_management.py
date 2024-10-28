@@ -1,3 +1,9 @@
+# 2. Implementing a Library Management System
+# Create classes for Book, Library, and Member.
+# Book should have attributes like title, author, isbn, and available (boolean).
+# Library should manage a collection of books and allow members to borrow and return books.
+
+
 class Book:
     def __init__(self, title, author, isbn, available=True):
         self.title = title
